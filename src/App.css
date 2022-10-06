@@ -83,7 +83,7 @@ body {
 }
 
 .row {
-  flex: 1 0 auto;
+  /* flex: 1 0 auto; */
   margin: 0 5px 0 5px;
   overflow: hidden;
   border: solid 2px red
