@@ -296,7 +296,7 @@ function numChecker(e) {
 }
 
     return (
-        <div  className="z-50 absolute flex bg-white h-full flex-col w-full max-w-[500px] justify-between left-0 right-0 m-auto items-center">
+        <div className="z-50 absolute flex bg-graysss h-full flex-col w-full max-w-[500px] justify-between left-0 right-0 m-auto items-center">
           <div className=' -z-20'>
           {/* style={{ background: '#282c34',}} */}
           <Snowfall />
