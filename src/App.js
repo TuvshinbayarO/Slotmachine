@@ -319,7 +319,7 @@ function numChecker(e) {
                 {premio()}
             </h1>
             <div className="slotFoot mb-10">
-                <button style={{backgroundColor: '#C81E37'}} className="spinButton text-white rounded-lg" onClick={() => play()}>Spin</button>
+                <button style={{backgroundColor: '#C81E37'}} className="spinButton text-white rounded-full p-10" onClick={() => play()}>Spin</button>
             </div>
         </div>
         
