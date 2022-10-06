@@ -30,55 +30,55 @@ const App = ({id, owned, close, expires}) => {
     if (!spin) {
       return (
           <>
-          <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-          <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-          <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
-          <div className="ringEnd"><img className='w-28' src={grinch} /></div>
+          <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+          <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+          <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
+          <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
           </>
               )
       } else if (spin && ring1 == undefined) {
           return (
             <>
-              <div className="ringMoving"><img className='w-28' src={Santa} /></div>
-              <div className="ringMoving"><img className='w-28' src={Elf} /></div>
-              <div className="ringMoving"><img className='w-28' src={Snowman} /></div>
-              <div className="ringMoving"><img className='w-28' src={grinch} /></div>
+              <div className="ringMoving"><img className=' w-20' src={Santa} /></div>
+              <div className="ringMoving"><img className=' w-20' src={Elf} /></div>
+              <div className="ringMoving"><img className=' w-20' src={Snowman} /></div>
+              <div className="ringMoving"><img className=' w-20' src={grinch} /></div>
             </>
           )
       } else if (ring1 >= 1 && ring1 <= 50 ) {
           return (
             <>
-            <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-            <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-            <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
-            <div className="ringEnd"><img className='w-28' src={grinch} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
+            <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
             </>
           )  
       } else if (ring1 > 50 && ring1 <= 75) {
           return (
             <>
-            <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-            <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
-            <div className="ringEnd"><img className='w-28' src={grinch} /></div>
-            <div className="ringEnd"><img className='w-28' src={Santa} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
+            <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
             </>
           )  
       } else if (ring1 > 75 && ring1 <= 95) {
           return (
               <>
-              <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
-              <div className="ringEnd"><img className='w-28' src={grinch} /></div>
-              <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-              <div className="ringEnd"><img className='w-28' src={Elf} /></div>
+              <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
+              <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
+              <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+              <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
               </>
           )  
       } else if (ring1 > 95 && ring1 <= 100) {
           return (
               <>
-              <div className="ringEnd"><img className='w-28' src={grinch} /></div>
-              <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-              <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-              <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
+              <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
+              <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+              <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+              <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
               </>
           )  
       }
@@ -89,55 +89,55 @@ const App = ({id, owned, close, expires}) => {
     if (!spin) {
       return (
         <>
-        <div className="ringEnd"><img className='w-28' src={grinch} /></div>
-        <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-        <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-        <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
+        <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
+        <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+        <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+        <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
         </>
         )
     } else if (spin && ring2 == undefined) {
       return (
           <>
-          <div className="ringMoving"><img className='w-28' src={Santa} /></div>
-          <div className="ringMoving"><img className='w-28' src={Elf} /></div>
-          <div className="ringMoving"><img className='w-28' src={Snowman} /></div>
-          <div className="ringMoving"><img className='w-28' src={grinch} /></div>
+          <div className="ringMoving"><img className=' w-20' src={Santa} /></div>
+          <div className="ringMoving"><img className=' w-20' src={Elf} /></div>
+          <div className="ringMoving"><img className=' w-20' src={Snowman} /></div>
+          <div className="ringMoving"><img className=' w-20' src={grinch} /></div>
           </>
       )
     } else if (ring2 >= 1 && ring2 <= 50 ) {
         return (
           <>
-          <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-          <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-          <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
-          <div className="ringEnd"><img className='w-28' src={grinch} /></div>
+          <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+          <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+          <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
+          <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
           </>
         )  
     } else if (ring2 > 50 && ring2 <= 75) {
         return (
           <>
-          <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-          <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
-          <div className="ringEnd"><img className='w-28' src={grinch} /></div>
-          <div className="ringEnd"><img className='w-28' src={Santa} /></div>
+          <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+          <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
+          <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
+          <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
           </>
         )  
     } else if (ring2 > 75 && ring2 <= 95) {
         return (
             <>
-            <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
-            <div className="ringEnd"><img className='w-28' src={grinch} /></div>
-            <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-            <div className="ringEnd"><img className='w-28' src={Elf} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
+            <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
             </>
         )  
     } else if (ring2 > 95 && ring2 <= 100) {
         return (
             <>
-            <div className="ringEnd"><img className='w-28' src={grinch} /></div>
-            <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-            <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-            <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
+            <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
             </>
         )  
   }
@@ -148,57 +148,57 @@ const App = ({id, owned, close, expires}) => {
     if (!spin) {
     return (
         <>
-        <div className="ringEnd"><img className='w-28' src={grinch} /></div>
-        <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-        <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-        <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
+        <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
+        <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+        <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+        <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
         </>
             )
     } else if (spin && ring3 == undefined) {
     return (
         <>
-        <div className="ringMoving"><img className='w-28' src={Santa} /></div>
-        <div className="ringMoving"><img className='w-28' src={Elf} /></div>
-        <div className="ringMoving"><img className='w-28' src={Snowman} /></div>
+        <div className="ringMoving"><img className=' w-20' src={Santa} /></div>
+        <div className="ringMoving"><img className=' w-20' src={Elf} /></div>
+        <div className="ringMoving"><img className=' w-20' src={Snowman} /></div>
         <div className="ringMoving">🍋</div>
         <div className="ringMoving">🍍</div>
-        <div className="ringMoving"><img className='w-28' src={grinch} /></div>
+        <div className="ringMoving"><img className=' w-20' src={grinch} /></div>
         </>
             )
     } else if (ring3 >= 1 && ring3 <= 50 ) {
         return (
             <>
-            <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-            <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-            <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
-            <div className="ringEnd"><img className='w-28' src={grinch} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+            <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
+            <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
             </>
                 )  
         } else if (ring3 > 50 && ring3 <= 75) {
             return (
                 <>
-                <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-                <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
-                <div className="ringEnd"><img className='w-28' src={grinch} /></div>
-                <div className="ringEnd"><img className='w-28' src={Santa} /></div>
+                <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+                <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
+                <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
+                <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
                 </>
                     )  
             } else if (ring3 > 75 && ring3 <= 95) {
                 return (
                     <>
-                    <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
-                    <div className="ringEnd"><img className='w-28' src={grinch} /></div>
-                    <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-                    <div className="ringEnd"><img className='w-28' src={Elf} /></div>
+                    <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
+                    <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
+                    <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+                    <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
                     </>
                         )  
                 } else if (ring3 > 95 && ring3 <= 100) {
                     return (
                         <>
-                        <div className="ringEnd"><img className='w-28' src={grinch} /></div>
-                        <div className="ringEnd"><img className='w-28' src={Santa} /></div>
-                        <div className="ringEnd"><img className='w-28' src={Elf} /></div>
-                        <div className="ringEnd"><img className='w-28' src={Snowman} /></div>
+                        <div className="ringEnd"><img className=' w-20' src={grinch} /></div>
+                        <div className="ringEnd"><img className=' w-20' src={Santa} /></div>
+                        <div className="ringEnd"><img className=' w-20' src={Elf} /></div>
+                        <div className="ringEnd"><img className=' w-20' src={Snowman} /></div>
                         </>
                             )  
                     }
@@ -302,8 +302,9 @@ function numChecker(e) {
           <Snowfall />
           </div>
             <h1 style={{backgroundColor: '#C81E37'}} className="h-14 flex justify-center items-center w-64 rounded-lg text-white mt-10">Good Luck</h1>
-            <div className='w-full px-2'>
-              <div className="flex w-full h-[200px] overflow-hidden flex-row border-2 border-red-500 p-2 rounded-xl"> 
+            <div className='w-full px-5'>
+            <div className='border-2 border-red-500 rounded-xl'>
+              <div className="flex w-full h-[150px] overflow-hidden justify-center flex-row p-2"> 
                   <div className="row rounded-xl">
                       {row1()}
                   </div>
@@ -314,13 +315,15 @@ function numChecker(e) {
                       {row3()}
                   </div>
               </div>
+              <div className="slotFoot">
+                <button style={{backgroundColor: '#C81E37'}} className="spinButton text-white rounded-full p-10 animate-pulse" onClick={() => play()}>Spin</button>
+            </div>
+            </div>
             </div>
             <h1 style={{backgroundColor: '#C81E37'}} className="h-14 flex justify-center items-center w-64 rounded-lg text-white">
                 {premio()}
             </h1>
-            <div className="slotFoot mb-10">
-                <button style={{backgroundColor: '#C81E37'}} className="spinButton text-white rounded-full p-10" onClick={() => play()}>Spin</button>
-            </div>
+            
         </div>
         
     )
