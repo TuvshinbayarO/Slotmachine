@@ -301,7 +301,7 @@ function numChecker(e) {
           {/* style={{ background: '#282c34',}} */}
           <Snowfall />
           </div>
-            <h1 style={{backgroundColor: '#C81E37'}} className="h-14 flex justify-center items-center w-64 rounded-lg text-white mt-10">Good Luck</h1>
+            <h1 style={{backgroundColor: '#C81E37'}} className="h-14 flex justify-center items-center w-64 rounded-lg text-white">Good Luck</h1>
             <div className='w-full px-5'>
             <div className='border-2 border-red-500 rounded-xl'>
               <div className="flex w-full h-[150px] overflow-hidden justify-center flex-row p-2"> 
@@ -320,7 +320,7 @@ function numChecker(e) {
             </div>
             </div>
             </div>
-            <h1 style={{backgroundColor: '#C81E37'}} className="h-14 flex justify-center items-center w-64 rounded-lg text-white">
+            <h1 style={{backgroundColor: '#C81E37'}} className="h-14 flex justify-center items-center w-64 rounded-lg text-white mb-10">
                 {premio()}
             </h1>
             
