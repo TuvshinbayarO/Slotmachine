@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         'graysss': '#F3F3F3',
-        'water-blue': '#CCEFEE'
+        'water-blue': '#CCEFEE',
+        'mobi-pinl': '#FFBDBB'
       }
     },
   },

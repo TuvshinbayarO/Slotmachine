@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes, Switch } from 'react-router-dom';
 import Game from './Pages/Game';
-import Prize from './Pages/Prize';
+import Rule from './Pages/Rule';
 
 function App(){
 
@@ -12,7 +12,7 @@ function App(){
                 <Router>
                     <Routes>
                         <Route path='/' element={<Game />} />
-                        <Route path='/prize' element={<Prize />} />
+                        <Route path='/rule' element={<Rule />} />
                     </Routes>            
                 </Router>
             </div>

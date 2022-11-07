@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Prize() {
+const Prize = () => {
   return (
     <div>Prize</div>
   )

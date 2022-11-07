@@ -3,10 +3,11 @@ import '../App.css';
 import React, {useState, useEffect} from 'react'
 import Snowfall from 'react-snowfall'
 import Santa from '../component/Assets/santa-claus.png'
+import Back from '../component/Assets/back.jpg'
 import Elf from '../component/Assets/elf.png'
 import Snowman from '../component/Assets/snowman.png'
 import grinch from '../component/Assets/grinch.png'
-import Gift from '../component/Assets/text.png'
+import Gift from '../component/Assets/gift.png'
 
 const Game = ({id, owned, close, expires}) => {
 
@@ -367,37 +368,37 @@ function numChecker(e) {
     ]
 
     return (
-        <div className="pt-2 absolute bg-blue-500 flex h-full flex-col w-full max-w-[500px] left-0 right-0 m-auto items-center">
+        <div style={{ backgroundImage: `url(${Back})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className="pt-2 absolute bg-blue-500 flex h-screen flex-col w-full max-w-[500px] left-0 right-0 m-auto items-center">
             {/* <div className='flex flex-col justify-center items-center'>
                 <img className='w-64' src={Gift} />
             </div> */}
-            <div className='w-full px-5 pt-5'>
+            <div style={{ backgroundImage: `url(${Gift})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }} className='w-full h-[55%] px-5 pt-5'>
                 <div className=''>
-                <div className="border-2 border-red-500 rounded-xl border-dotted flex w-full h-[150px] overflow-hidden justify-evenly flex-row"> 
+                <div className="border-dotted mt-[152px] flex w-full h-[150px] overflow-hidden justify-evenly flex-row"> 
                     <div className="row">
                         {row1()}
                     </div>
-                    <div className='border-r-2 h-[90%] my-2 border-red-500' />
+                    
                     <div className="row">
                         {row2()}
                     </div>
-                    <div className='border-r-2 h-[90%] my-2 border-red-500' />
+                    
                     <div className="row">
                         {row3()}
                     </div>
                 </div>
                 <div className="slotFoot">
-                    <button style={{backgroundColor: '#C81E37'}} className="text-white rounded-lg w-64 h-8 animate-pulse" onClick={() => play()}>Тоглох</button>
+                    <button className="text-white bg-red-500 h-[55px] w-36 rounded-2xl" onClick={() => play()}>Тоглох</button>
                     {/* <h1 style={{backgroundColor: '#C81E37'}} className="h-14 flex justify-center items-center w-64 rounded-lg text-white mb-10">
                     {premio()}
                 </h1> */}
                     </div>
                 </div>
             </div>
-            <div className='bg-white w-[90%] p-5 rounded-xl'>
+            <div className='bg-white w-[90%] mt-14 rounded-xl'>
                 <div className='flex justify-between'>
                     <div className='flex space-x-2'>
-                        <div className=' h-12 w-12 rounded-full bg-red-500' />
+                        <img className='w-12 h-12 rounded-full' src={Santa} />
                         <div className=''>
                             <h1 className=' text-xs'>Багийн гишүүн-0</h1>
                             <h1 className=' font-semibold'>Багийн нэр</h1>
@@ -409,7 +410,7 @@ function numChecker(e) {
                     </div>
                 </div>
             </div>
-            <div className='w-[90%] h-[45%] px-5 overflow-y-scroll'>
+            <div className='w-full h-[15%] px-5 overflow-y-scroll mt-4'>
                 {
                     Data.map((item , key) => {
                         return(
@@ -424,14 +425,14 @@ function numChecker(e) {
                 }
             </div>  
              <div className='bg-water-blue h-28 rounded-t-md w-full absolute bottom-0 flex justify-center items-center'>
-                <div className='flex justify-between items-center w-full mx-2 text-white'>
-                    <a className='bg-red-500 p-2 rounded-lg' href='/prize'>
+                <div className='flex justify-between items-center w-full mx-2 text-white text-xs'>
+                    <a className='bg-red-500 p-3 rounded-lg' href='/rule'>
                         <h1>Тоглоомын дүрэм</h1>
                     </a>
-                    <a className='bg-red-500 p-2 rounded-lg' href='/prize'>
+                    <a className='bg-red-500 p-3 rounded-lg' href='/prize'>
                         <h1>Шагналын сан</h1>
                     </a>
-                    <a className='bg-red-500 p-2 rounded-lg' href='/prize'>
+                    <a className='bg-red-500 p-3 rounded-lg' href='/prize'>
                         <h1>Leader board</h1>
                     </a>
                 </div>
