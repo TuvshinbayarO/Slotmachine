@@ -373,14 +373,13 @@ function numChecker(e) {
             <div className='flex flex-col justify-center items-center'>
                 <img className='w-64' src={gifts} />
             </div>
-            <div className='absolute top-28 w-full h-[55%] px-5 pt-5'>
+            <div className='absolute top-64 w-full h-[55%] px-5 pt-5'>
                 <div className='relative'>
                     <div className='absolute -top-36 w-full'>
                         <div className='flex justify-center items-center'>
-                            <img className=' max-w-[335px]' src={Gift} />
+                            <img className=' max-w-[335px] z-50' src={Gift} />
                         </div>
-                    </div>
-                    <div className="border-dotted mt-[152px] flex w-full h-[150px] overflow-hidden justify-evenly flex-row"> 
+                    <div className="absolute z-10 -top-2 border-dotted mt-[152px] flex h-[150px] overflow-hidden bg-white justify-center left-8 w-[80%]"> 
                         <div className="row">
                             {row1()}
                         </div>
@@ -393,15 +392,16 @@ function numChecker(e) {
                             {row3()}
                         </div>
                     </div>
-                    <div className="slotFoot absolute top-[134px]">
-                        <button className="text-white bg-red-500 h-[55px] w-36 rounded-2xl" onClick={() => play()}>Тоглох</button>
-                        {/* <h1 style={{backgroundColor: '#C81E37'}} className="h-14 flex justify-center items-center w-64 rounded-lg text-white mb-10">
-                            {premio()}
-                        </h1> */}
+                    </div>
+                    <div className="slotFoot absolute top-[135px] z-50">
+                        <button className="text-white bg-red-500 h-[55px] w-36 shadow-2xl rounded-2xl" onClick={() => play()}>Тоглох</button>
                     </div>
                 </div>
             </div>
-            <div className='absolute top-[480px] bg-white w-[90%] mt-14 rounded-xl'>
+                <h1 className='absolute top-[540px]'>
+                    {premio()}
+                </h1>
+            <div className='absolute top-[530px] bg-white w-[90%] mt-14 rounded-xl'>
                 <div className='flex justify-between'>
                     <div className='flex space-x-2'>
                         <img className='w-12 h-12 rounded-full' src={Santa} />
@@ -416,7 +416,7 @@ function numChecker(e) {
                     </div>
                 </div>
             </div>
-            <div className='w-full h-[15%] px-5 overflow-y-scroll mt-4 absolute top-[570px]'>
+            {/* <div className='w-full h-[15%] px-5 overflow-y-scroll mt-4 absolute top-[570px]'>
                 {
                     Data.map((item , key) => {
                         return(
@@ -429,7 +429,7 @@ function numChecker(e) {
                         )
                     })
                 }
-            </div>  
+            </div>   */}
              <div className='bg-water-blue h-24 rounded-t-md w-full absolute bottom-0 flex justify-center items-center'>
                 <div className='flex justify-between items-center w-full space-x-2 px-2 text-white text-xs'>
                     <a className='bg-red-500 w-32 h-9 text-center flex justify-center items-center rounded-lg' href='/rule'>
